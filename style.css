@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header section css start */
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-main{
+    width: 1110px;
+}
+.logo-section img{
+    padding-top: 5px;
+}
+nav{
+    display: flex;
+    padding: 32px 5%;
+    justify-content: space-between;
+}
+.menu-list{
+    display: flex;
+}
+.menu-list ul {
+    list-style: none;
+    display: flex;;
+}
+.menu-list ul li{
+    margin-left: 10px;
+}
+.menu-list ul li:hover{
+    color: #094B72;
+}
+.search-bar{
+    padding-left: 110px;
+    /* display: flex;
+    justify-items: center;
+    justify-content: center; */
+    padding-top: 18px;
+}
+
+/* header section css end */
+
+/* hero section css start */
+
+.hero-main{
+    padding: 0px 30px;
+    margin: 0px;
+    padding-top: 8rem;
+    display: flex;
+    justify-items: center;
+}
+.hero-content{
+    width: 50%;
+}
+.hero-title{
+    font-size: 4rem;
+    color: #094B72;
+    margin: 0 !important;
+    padding: 0;
+}
+.hero-para{
+    font-size: 24px;
+}
+.hero-img{
+    width: 40%;
+}
+.hero-button{
+    width: 120px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #094B72;
+    color: white;
+}
+.hero-button:hover{
+    background-color: #4083ab;
+}
+.hero-image{
+    width: 100%;
+    margin-top: -150px;
+}
+/* hero section css end */
