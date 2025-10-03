@@ -68,12 +68,13 @@ nav{
     width: 40%;
 }
 .hero-button{
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
     padding: 5px 10px;
     border-radius: 5px;
     background-color: #094B72;
     color: white;
+    border: none;
 }
 .hero-button:hover{
     background-color: #4083ab;
@@ -82,4 +83,175 @@ nav{
     width: 100%;
     margin-top: -150px;
 }
+.hero-logo{
+    margin-top: 70px;
+}
 /* hero section css end */
+
+/* help section css start */
+.help-section{
+    background-color: #d3f1fa;
+    padding: 50px 30px;
+}
+.help-main{
+    display: flex;
+}
+.help-content{
+    width: 350px;
+    height: 290px;
+    padding-left: 70px;
+}
+.help-title{
+    font-size: 40px;
+}
+.help-description{
+    font-size: 20px;
+}
+.help-card-group{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding-left: 40px;
+}
+.help-card{
+    width: 175px;
+    /* height: 251px; */
+    background-color: #FCFCFC;
+    border-radius: 5px;
+    padding: 15px;
+}
+.help-card img{
+    width: 25px;
+    height: 25px;
+}
+.help-card h1{
+    margin: 0;
+}
+.help-card p{
+    color: #8B8C8C;
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 0 !important;
+}
+/* help section css end */
+
+/* review section css st */
+
+.review-section{
+    background-color: #1282A6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.review-title{
+    width: 700px;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    /* padding-top: 50px; */
+    
+}
+.review-title h1{
+    font-size: 45px;
+    margin: 0;
+}
+.review-title p{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 5px;
+}
+.review-count{
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.count-card{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    /* margin-left: 10px; */
+    padding: 10px;
+}
+.count-card h1{
+    margin: 0 auto;
+    font-size: 45px;
+}
+.count-card p{
+    margin: 0 auto;
+}
+
+/* review section css end */
+
+/* testimonial section css start */
+
+.testimonial-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+}
+.testimonial-title{
+    margin: 0 auto;
+    display: block;
+    font-size: 48px;
+    /* background-color: #4083ab; */
+}
+.testimonial-card-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.testimonial-card{
+    width: 40%;
+    padding: 10px;
+}
+.testimonial-card h3{
+    font-size: 18px;
+    
+}
+.testimonial-card p{
+    color: #4F4F4F;
+}
+.person-div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 50px;
+}
+.person-img{
+    width: 50px;
+    height: 50px;
+    background-color: #8aa9bb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.person-img img{
+    margin: 0 auto;
+}
+.person-description{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.person-description h4,p{
+    margin: 0px;
+}
+/* testimonial section css end */
+
+/* quiry section css */
+
+/* quiry section css end */
