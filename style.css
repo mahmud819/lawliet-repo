@@ -250,8 +250,108 @@ nav{
 .person-description h4,p{
     margin: 0px;
 }
+.person-description h4{
+    font-size: 18px;
+}
+.person-description p{
+    font-size: 14px;
+    color:#4F4F4F;
+}
 /* testimonial section css end */
 
 /* quiry section css */
-
+.quiry-main{
+    display: flex;
+}
+.quiry-context{
+    width: 70%;
+}
+.quiry-context-content{
+    width: 590px;
+    padding-left: 110px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+.quiry-context-content h1{
+    font-size: 48px;
+}
+.quiry-context-content p{
+    font-size: 22px;
+}
+.quiry-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #0F6E8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.quiry-img{
+    width: 30%;
+}
+.quiry-img img{
+    width: 100%;
+    border-radius: 0 0 0 20px;
+    
+}
 /* quiry section css end */
+
+/* footer section css start */
+.footer-section{
+    padding: 60px 110px;
+    background-color:#0F6E8C;
+    color: white;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 160px;
+    height: 54px;
+}
+.footer-logo img{
+    width: 100%;
+}
+table{
+    text-align: left;
+}
+th{
+    padding: 24px 0px 22px 30px;
+    font-size: 20px;
+}
+td{
+    padding: 10px 30px;
+}
+th:hover{
+    color: #9edbeef2;
+}
+td:hover{
+    color: #bce3eff2;
+}
+/* footer section css end *
+/* copy right section css */
+
+.copy-right-section{
+    height: 50px;
+    background-color: #05546D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px;
+}
+.copy-right-content{
+    /* display: flex;
+    justify-content: center;
+    justify-items: center; */
+    margin: auto 10px;
+}
+.copy-right-icon{
+    margin: auto 0;
+}
+.copy-right-icon i{
+    margin-left: 10px;
+}
